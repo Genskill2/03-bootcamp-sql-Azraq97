@@ -22,4 +22,4 @@ CREATE TABLE books_subjects (
     subject INT,
     FOREIGN KEY (book) REFERENCES books (id),
     FOREIGN KEY (subject) REFERENCES subjects (id)
-    );
+    ); 
